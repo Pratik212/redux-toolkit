@@ -24,7 +24,7 @@ const Products = () =>{
     return(
         <div className="productsWrapper">
             {products.map(product =>(
-                <div className="card" key={product.id}>
+                <div className="card" key={product.id}>n
                     <img src={product.image} alt=""/>
                     <h4>{product.title}</h4>
                     <h5>{product.price}</h5>
